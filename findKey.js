@@ -18,7 +18,6 @@ const findKey = function(object, callback) {
   return result;
 };
 
-module.exports = findKey;
 
 // let result1 = findKey({
 //   "Blue Hill": { stars: 1 },
@@ -29,5 +28,9 @@ module.exports = findKey;
 //   "Akelarre":  { stars: 3 }
 // }, x => x.stars === 2) // => "noma"
 
+// console.log(result1);
+
 // assertEqual(result1, 'noma');
 // assertEqual(result1, 'Blue Hill');
+
+module.exports = findKey;
