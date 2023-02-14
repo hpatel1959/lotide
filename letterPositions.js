@@ -46,3 +46,5 @@ module.exports = letterPositions;
 // assertArraysEqual(letterPositions("Harsh Patel is happy").h, [0, 4, 15]);
 // assertArraysEqual(letterPositions("testing a fail").t, [1, 4]);
 
+console.log(letterPositions('Harsh Patel'));
+

@@ -1,5 +1,5 @@
-const assertEqual = require('../assertEqual');
-const eqArrays = require('../eqArrays');
+const assertEqual = require('../index').assertEqual;
+const eqArrays = require('../index').eqArrays;
 
 // console.log(eqArrays([1, 2, 3], [1, 2, 3]));
 // console.log(eqArrays([1, 2, 3], [2, 4, 6]));

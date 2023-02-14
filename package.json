@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@hpatel1959/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide library with utility functions",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/hpatel1959/lotide.git"
   },
-  "author": "",
+  "author": "Harsh Patel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hpatel1959/lotide/issues"
