@@ -9,4 +9,6 @@ const pigLatin = function(array) {
   return convertedText;
 };
 
-console.log(pigLatin(process.argv));
+module.exports = pigLatin;
+
+// console.log(pigLatin(process.argv));

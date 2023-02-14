@@ -6,10 +6,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-assertEqual('Hello', 'Hello');
-assertEqual('Lighthouse Labs', 'Bootcamp');
-assertEqual(1, 1);
-assertEqual(1, 2);
+// assertEqual('Hello', 'Hello');
+// assertEqual('Lighthouse Labs', 'Bootcamp');
+// assertEqual(1, 1);
+// assertEqual(1, 2);
 
 const countLetters = function(string) {
   let lowercaseStr = string.toLowerCase();
@@ -26,4 +26,6 @@ const countLetters = function(string) {
   return numbersObj;
 };
 
-console.log(countLetters('Hi my name is Harsh'));
+module.exports = countLetters;
+
+// console.log(countLetters('Hi my name is Harsh'));

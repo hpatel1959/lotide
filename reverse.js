@@ -9,4 +9,6 @@ const reverse = function(array) {
   return reversedString;
 };
 
-console.log(reverse(process.argv));
+module.exports = reverse;
+
+// console.log(reverse(process.argv));

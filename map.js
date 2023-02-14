@@ -33,13 +33,15 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-const words = ["ground", "control", "to", "major", "tom"];
+module.exports = map;
 
-const result = map(words, x => x[0]);
+// const words = ["ground", "control", "to", "major", "tom"];
+
+// const result = map(words, x => x[0]);
 
 // console.log(result);
 
-assertArraysEqual(result, ['g', 'c', 't', 'm', 't']);
-assertArraysEqual(result, ['g', 'c', 'h', 'n', 't']);
-assertArraysEqual(result, [1, 2, 3]);
+// assertArraysEqual(result, ['g', 'c', 't', 'm', 't']);
+// assertArraysEqual(result, ['g', 'c', 'h', 'n', 't']);
+// assertArraysEqual(result, [1, 2, 3]);
 

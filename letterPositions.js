@@ -40,7 +40,9 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-assertArraysEqual(letterPositions("hello").e, [1]);
-assertArraysEqual(letterPositions("Harsh Patel is happy").h, [0, 4, 15]);
-assertArraysEqual(letterPositions("testing a fail").t, [1, 4]);
+module.exports = letterPositions;
+
+// assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("Harsh Patel is happy").h, [0, 4, 15]);
+// assertArraysEqual(letterPositions("testing a fail").t, [1, 4]);
 

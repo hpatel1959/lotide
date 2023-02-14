@@ -33,4 +33,6 @@ const loopyLighthouse = function(range, multiples, words) {
   }
 };
 
-console.log(loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]));
+module.exports = loopyLighthouse;
+
+// console.log(loopyLighthouse([15, 90], [2, 5], ["Batty", "Beacon"]));
